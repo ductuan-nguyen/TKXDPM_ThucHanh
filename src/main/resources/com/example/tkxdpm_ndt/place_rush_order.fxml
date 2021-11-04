@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="15.0" layoutY="87.0" prefHeight="109.0" prefWidth="446.0" style="-fx-background-color: pink;">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="61.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../images/harry_potter3.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#2d90a1" layoutX="78.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book3" />
+            <Button layoutX="78.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="Delete" />
+            <Spinner layoutX="372.0" layoutY="38.0" prefHeight="25.0" prefWidth="66.0" />
+            <Text fill="#2b637a" layoutX="333.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="998 đ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#30b5c7" layoutX="334.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VND" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="31.0" fitWidth="36.0" layoutX="12.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../logo_icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="51.0" layoutY="14.0" text="RUSH ORDER" textFill="#50c0cf">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="69.0" text="Subtotal:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="487.0" layoutY="106.0" text="Amount:" />
+      <Text fill="#2d8194" layoutX="560.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.000đ" />
+      <Text fill="#4296a9" layoutX="560.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1.100đ" />
+      <Text fill="#dc1414" layoutX="623.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VAT(10%)">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Text>
+      <Button layoutX="489.0" layoutY="159.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="158.0" style="-fx-background-color: red;" text="Place Rush Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Text layoutX="227.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nguyễn Đức Tuân 20180192" />
+      <Pane layoutX="15.0" layoutY="243.0" prefHeight="109.0" prefWidth="446.0">
+         <children>
+            <ImageView fitHeight="73.0" fitWidth="61.0" layoutX="8.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../images/harry_potter3.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#2d90a1" layoutX="78.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book3" />
+            <Button layoutX="78.0" layoutY="38.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="57.0" text="Delete" />
+            <Spinner layoutX="372.0" layoutY="38.0" prefHeight="25.0" prefWidth="66.0" />
+            <Text fill="#2b637a" layoutX="333.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="998 đ">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text fill="#30b5c7" layoutX="334.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="VND" />
+         </children>
+      </Pane>
+      <Label layoutX="16.0" layoutY="61.0" text="Product for rush order" textFill="#36b134" />
+      <Label layoutX="23.0" layoutY="226.0" text="Not support rush order" textFill="#cc2424" />
+   </children>
+</AnchorPane>
